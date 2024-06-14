@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Counter } from './features/counter/Counter'
 import Header from './components/Header'
+import FormComponent from './features/form/FormComponent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
     <Header/>
-      <Counter/>
+      {/* <Counter /> */}
+      <FormComponent/>
     </>
   )
 }
